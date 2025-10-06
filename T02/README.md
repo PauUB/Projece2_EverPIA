@@ -1,68 +1,87 @@
-# ⚡ Informe de Selecció de Sistema d'Alimentació Ininterrompuda (SAI)
+# Estudi i Selecció d’un SAI per a TecnoGestió S.L.
 
-## 🧭 1. Introducció
-Aquest informe té com a objectiu presentar els càlculs realitzats per determinar la **potència necessària** per a un conjunt d'equips informàtics i la **selecció d’un SAI adequat** per garantir la continuïtat operativa en cas d’interrupcions elèctriques.
+## 🏢 Descripció de l’empresa
 
----
+**TecnoGestió S.L.** és una empresa dedicada a la gestió documental i l’assessorament informàtic. Disposa d’un petit despatx amb:
 
-## 🧮 2. Càlculs realitzats
+- 4 ordinadors de sobretaula
+- 1 impressora-fotocopiadora multifunció
+- 1 router d’accés a Internet
 
-### 💡 2.1 Potència total dels equips
-S'han considerat els següents equips:
-
-| Equip | Model | Potència (W) | Quantitat | Total (W) |
-|:------|:------|:-------------:|:----------:|:----------:|
-| Monitor | ThinkCentre M90a Gen 6 (24″ Intel) AIO | 230 | 4 | 920 |
-| Ordinador | ThinkStation P3 Tower (Intel) | 750 | 4 | 3000 |
-| Router | Mesh WiFi 6 AX3000 | 18 | 1 | 18 |
-| Impressora multifunció | Brother DCP-L3560CDW | 560 | 1 | 560 |
-| **Total sense reserva** | | | | **4498 W** |
-
-Afegint una **reserva del 20%**:
-
-> 🧾 **Potència total requerida:**  
-> 4498 W × 1,2 = **5397,6 W**
+A causa de les constants incidències amb el subministrament elèctric, la direcció ha decidit adquirir un **SAI (Sistema d’Alimentació Ininterrompuda)** per garantir la continuïtat del servei i protegir els equips.
 
 ---
 
-## 🔍 3. Models de SAI analitzats
+## 📋 Tasques a realitzar
 
-| Model | Potència (W) | Autonomia | Sortides | Preu (€) | Marca |
-|:------|:-------------:|:----------:|:----------|:---------:|:-------:|
-| **Lapara 6000VA/6000W v1.0** | 6000 | 20 min (mitja càrrega) | IEC C13, C19, USB, RS232, RJ45 | **1.647,09** | Lapara |
-| **Riello Sentinel Dual SDU 6000** | 6000 | Ampliable amb bateries | IEC C13, F, USB, RS232 | 1.281,88 | Riello |
-| **Phasak 6000VA Online** | 5400 | No especificada | Terminal Block, USB | 1.129,53 | Phasak |
+### 1. Inventari d’equips
 
----
-
-## ✅ 4. Justificació de la selecció final
-
-Després d’analitzar les opcions disponibles, es recomana el **Lapara 6000VA/6000W v1.0** per les raons següents:
-
-- ⚙️ **Potència suficient:** amb 6000 W, cobreix àmpliament les necessitats dels equips amb la reserva inclosa.  
-- 🔋 **Autonomia adequada:** 20 minuts a mitja càrrega permeten un tancament segur dels sistemes.  
-- 🔌 **Sortides versàtils:** permeten una connexió flexible dels equips informàtics.  
-- 💰 **Relació qualitat-preu:** tot i ser el més car, ofereix les millors prestacions globals.
-
-> Els altres models, tot i complir amb els requisits mínims, presenten limitacions en autonomia o en el tipus de sortides que poden no ser òptimes per a les necessitats concretes.
+EquipQuantitatConnectat al SAI?JustificacióOrdinador de sobretaula4✅ SíProtecció de dades i continuïtat| Monitor                     | 4         | ✅ Sí              | Necessari per visualitzar i apagar   |
+| Router                      | 1         | ✅ Sí              | Mantenir connexió a Internet         |
+| Impressora multifunció      | 1         | ❌ No              | Consum elevat, no essencial en emergència |
 
 ---
 
-## 🏁 5. Conclusió
+### 2. Consulta de consum dels dispositius
 
-La selecció del **SAI Lapara 6000VA/6000W v1.0** és la **més adequada** per garantir la protecció i la continuïtat operativa dels equips informàtics analitzats, complint plenament amb els requisits de **potència** i **autonomia** establerts.
+DispositiuModel triatConsum (W)Consum (VA)PCHP ProDesk 400 G6250 W312 VAMonitorDell P2419H18 W22 VA| Router         | TP-Link Archer C6        | 12 W       | 15 VA       |
+
+**Total consum:**
+
+- **PCs**: 4 × 250 W = 1000 W → 1248 VA  
+- **Monitors**: 4 × 18 W = 72 W → 88 VA  
+- **Router**: 12 W → 15 VA  
+
+**Total global:**  
+- **Watts:** 1084 W  
+- **VA:** 1351 VA
 
 ---
 
-### 🧷 Resum visual
-| Criteri | Lapara 6000VA | Riello SDU 6000 | Phasak 6000VA |
-|:--|:--:|:--:|:--:|
-| Potència | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| Autonomia | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐ |
-| Tipus de sortides | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| Preu | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
-| **Resultat global** | 🥇 **Recomanat** | 🥈 Alternativa | 🥉 Bàsic |
+### 3. Càlcul de potència total amb reserva
+
+- **Reserva del 20%:**  
+  - **Watts amb reserva:** 1084 W × 1.2 = **1300.8 W**  
+  - **VA amb reserva:** 1351 VA × 1.2 = **1621.2 VA**
 
 ---
 
-✍️ *Informe elaborat per a la selecció tècnica del SAI per a equips informàtics (2025).*
+### 4. Determinació de l’autonomia
+
+- **Objectiu:** Mantenir els equips funcionant durant **10 minuts** per guardar treballs i apagar correctament.
+
+---
+
+### 5. Recerca de models de SAI
+
+#### 🔍 Models analitzats
+
+ModelPotència (VA)Potència (W)AutonomiaSortidesPreu (€)MarcaAPC Back-UPS Pro 15001500 VA865 W~10 min6x IEC220 €APC| Eaton Ellipse PRO 1600 | 1600 VA       | 1000 W       | ~12 min   | 8x IEC   | 250 €    | Eaton     |
+| Salicru SPS SOHO+ 1600 | 1600 VA       | 960 W        | ~10 min   | 6x Schuko| 230 €    | Salicru   |
+
+---
+
+### 6. Informe tècnic
+
+- **Càlculs realitzats:** Potència total amb reserva de 1300 W / 1621 VA  
+- **Autonomia mínima requerida:** 10 minuts  
+- **Models analitzats:** APC, Eaton, Salicru  
+- **Selecció final:** **Eaton Ellipse PRO 1600** per la seva potència adequada, bona autonomia i fiabilitat de marca.
+
+---
+
+## 📚 Material de suport
+
+- Apunts RA1AA3: El SAI
+
+---
+
+## 📁 Contingut de la carpeta del projecte
+
+La carpeta del projecte inclou els següents elements:
+
+- README.md → Document explicatiu amb el resum del projecte i les tasques realitzades.
+- [solucio.md] → Arxiu amb l'informe tècnic complet, càlculs i justificació de la selecció del SAI.
+- imatges/ → Carpeta amb imatges de suport, com esquemes, captures de models de SAI, gràfics de consum, etc.
+
+---
