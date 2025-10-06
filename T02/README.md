@@ -1,80 +1,70 @@
-# Estudi i Selecció d’un SAI per a TecnoGestió S.L.
+# ⚡ Estudi i Selecció d’un Sistema d’Alimentació Ininterrompuda (SAI)
 
-## 🏢 Descripció de l’empresa
+## 🏢 Context
 
-**TecnoGestió S.L.** és una empresa dedicada a la gestió documental i l’assessorament informàtic. Disposa d’un petit despatx amb:
+L’empresa **TecnoGestió S.L.**, dedicada a la gestió documental i assessorament informàtic, disposa d’un petit despatx amb:
 
 - 4 ordinadors de sobretaula
 - 1 impressora-fotocopiadora multifunció
 - 1 router d’accés a Internet
 
-A causa de les constants incidències amb el subministrament elèctric, la direcció ha decidit adquirir un **SAI (Sistema d’Alimentació Ininterrompuda)** per garantir la continuïtat del servei i protegir els equips.
+A causa de les constants incidències amb el subministrament elèctric a la zona, la direcció ha decidit adquirir un **SAI** per garantir la continuïtat del servei i protegir els equips.
+
+L’empresa ha contactat amb la vostra empresa col·laboradora i el vostre responsable us ha encarregat l’estudi i la tria del SAI més adequat.
 
 ---
 
-## 📋 Tasques a realitzar
+## ✅ Tasques a realitzar
 
-### 1. Inventari d’equips
+### 1. 🧾 Inventari d’equips
 
-EquipQuantitatConnectat al SAI?JustificacióOrdinador de sobretaula4✅ SíProtecció de dades i continuïtat| Monitor                     | 4         | ✅ Sí              | Necessari per visualitzar i apagar   |
-| Router                      | 1         | ✅ Sí              | Mantenir connexió a Internet         |
-| Impressora multifunció      | 1         | ❌ No              | Consum elevat, no essencial en emergència |
+- Elaborar una **llista dels dispositius** que es connectaran al SAI (ordinadors, monitors, router, etc.).
+- **Justificar** si hi ha algun aparell que **no** es connectarà al sistema d’alimentació ininterrompuda.
 
----
+### 2. 🔍 Consulta de les especificacions tècniques
 
-### 2. Consulta de consum dels dispositius
+- Obtenir el **consum elèctric (W i VA)** de cada dispositiu.
+- Seleccionar **components reals** que siguin similars als que es poden trobar a la seu del client.
+- Indicar clarament:
+  - Marca i model del component
+  - Consum en watts (W)
+  - Consum en voltampers (VA)
 
-DispositiuModel triatConsum (W)Consum (VA)PCHP ProDesk 400 G6250 W312 VAMonitorDell P2419H18 W22 VA| Router         | TP-Link Archer C6        | 12 W       | 15 VA       |
+### 3. ⚙️ Càlcul de potència total
 
-**Total consum:**
+- Calcular la **potència total** necessària per alimentar els equips.
+- Afegir una **reserva del 20%** per garantir la seguretat i eficiència del sistema.
 
-- **PCs**: 4 × 250 W = 1000 W → 1248 VA  
-- **Monitors**: 4 × 18 W = 72 W → 88 VA  
-- **Router**: 12 W → 15 VA  
+### 4. ⏱️ Determinació de l’autonomia
 
-**Total global:**  
-- **Watts:** 1084 W  
-- **VA:** 1351 VA
+- Estimar el **temps mínim** que el SAI ha de mantenir els equips en funcionament (ex. 10 minuts).
+- Calcular l’**energia total necessària (Wh)** per garantir aquest temps de funcionament.
 
----
+### 5. 🔌 Recerca de models de SAI
 
-### 3. Càlcul de potència total amb reserva
+- Buscar **2 o 3 models de SAI** que compleixin els requisits de potència i autonomia.
+- Comparar les seves característiques:
+  - Potència (W i VA)
+  - Autonomia (a mitja càrrega)
+  - Tipus de sortides
+  - Preu (€)
+  - Marca
 
-- **Reserva del 20%:**  
-  - **Watts amb reserva:** 1084 W × 1.2 = **1300.8 W**  
-  - **VA amb reserva:** 1351 VA × 1.2 = **1621.2 VA**
+### 6. 📝 Informe tècnic
 
----
+Redactar un informe que inclogui:
 
-### 4. Determinació de l’autonomia
-
-- **Objectiu:** Mantenir els equips funcionant durant **10 minuts** per guardar treballs i apagar correctament.
-
----
-
-### 5. Recerca de models de SAI
-
-#### 🔍 Models analitzats
-
-ModelPotència (VA)Potència (W)AutonomiaSortidesPreu (€)MarcaAPC Back-UPS Pro 15001500 VA865 W~10 min6x IEC220 €APC| Eaton Ellipse PRO 1600 | 1600 VA       | 1000 W       | ~12 min   | 8x IEC   | 250 €    | Eaton     |
-| Salicru SPS SOHO+ 1600 | 1600 VA       | 960 W        | ~10 min   | 6x Schuko| 230 €    | Salicru   |
-
----
-
-### 6. Informe tècnic
-
-- **Càlculs realitzats:** Potència total amb reserva de 1300 W / 1621 VA  
-- **Autonomia mínima requerida:** 10 minuts  
-- **Models analitzats:** APC, Eaton, Salicru  
-- **Selecció final:** **Eaton Ellipse PRO 1600** per la seva potència adequada, bona autonomia i fiabilitat de marca.
+- ✅ Càlculs realitzats
+- ✅ Models analitzats
+- ✅ Justificació de la selecció final
 
 ---
 
 ## 📚 Material de suport
 
-- Apunts RA1AA3: El SAI
+- Apunts **RA1AA3 - El SAI**
 
----
+ ---
 
 ## 📁 Contingut de la carpeta del projecte
 
