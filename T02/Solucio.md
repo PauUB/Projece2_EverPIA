@@ -12,10 +12,10 @@ S'han considerat els següents equips:
 
 | Equip | Model | Potència (W) | Quantitat | Total (W) |
 |:------|:------|:-------------:|:----------:|:----------:|
-| Monitor | ThinkCentre M90a Gen 6 (24″ Intel) AIO | 230 | 4 | 920 |
-| Ordinador | ThinkStation P3 Tower (Intel) | 750 | 4 | 3000 |
-| Router | Mesh WiFi 6 AX3000 | 18 | 1 | 18 |
-| Impressora multifunció | Brother DCP-L3560CDW | 560 | 1 | 560 |
+| Monitor | [ThinkCentre M90a Gen 6 (24″ Intel) AIO](https://www.lenovo.com/es/es/p/desktops/thinkcentre/m-series-aio/lenovo-thinkcentre-m90a-gen-6-24-inch-intel/len102c0063?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOor2Tbd0z_TU3-FICALbxv6GpiSe__EACFPW8-ZOOuqTSpMpL4gn) | 230 | 4 | 920 |
+| Ordinador | [ThinkStation P3 Tower (Intel)](https://www.lenovo.com/es/es/p/workstations/thinkstationp/thinkstation-p3-tower-(intel)/len102s0016?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOooT8ZQNpILCsX0EvLrlyPt8OykJcZbSWJUx_hCRqFYTSgcuT62X) | 750 | 4 | 3000 |
+| Router | [Mesh WiFi 6 AX3000](https://www.mercasat.es/routers/1007474-router-gigabit-mesh-wifi-6-ax3000-4-puertos-rj45-101001000-mbps-6971693275799.html) | 18 | 1 | 18 |
+| Impressora multifunció | [Brother DCP-L3560CDW](https://www.pccomponentes.com/brother-dcp-l3560cdw-multifuncion-laser-led-color-wifi-duplex?srsltid=AfmBOoqsvUDWYbGozDtUOw1bfWsvTOYX-ssrKW1Q-Zm6VR1GK2K4kUOw) | 560 | 1 | 560 |
 | **Total sense reserva** | | | | **4498 W** |
 
 Afegint una **reserva del 20%**:
@@ -29,9 +29,9 @@ Afegint una **reserva del 20%**:
 
 | Model | Potència (W) | Autonomia | Sortides | Preu (€) | Marca | Imatge |
 |:------|:-------------:|:----------:|:----------|:---------:|:-------:|:------------:|
-| **Lapara 6000VA/6000W v1.0** | 6000 | 20 min (mitja càrrega) | IEC C13, C19, USB, RS232, RJ45 | **1.647,09** | Lapara | ![SAI Lapara 6000VA/6000W v1.0](img/SAI3.png) |
-| **Riello Sentinel Dual SDU 6000** | 6000 | Ampliable amb bateries | IEC C13, F, USB, RS232 | 1.281,88 | Riello | ![SAI Riello Sentinel Dual SDU 6000](img/SAI2.png) |
-| **Phasak 6000VA Online** | 5400 | No especificada | Terminal Block, USB | 1.129,53 | Phasak | ![SAI Phasak 6000VA Online](img/SAI1.png) |
+| [**Lapara 6000VA/6000W v1.0**](https://chatgpt.com/c/68dc10e0-10f4-8331-8d33-9d82fb1f8ad7) | 6000 | 20 min (mitja càrrega) | IEC C13, C19, USB, RS232, RJ45 | **1.647,09** | Lapara | ![SAI Lapara 6000VA/6000W v1.0](img/SAI3.png) |
+| [**Riello Sentinel Dual SDU 6000**](https://chatgpt.com/c/68dc10e0-10f4-8331-8d33-9d82fb1f8ad7) | 6000 | Ampliable amb bateries | IEC C13, F, USB, RS232 | 1.281,88 | Riello | ![SAI Riello Sentinel Dual SDU 6000](img/SAI2.png) |
+| [**Phasak 6000VA Online**](https://chatgpt.com/c/68dc10e0-10f4-8331-8d33-9d82fb1f8ad7) | 5400 | No especificada | Terminal Block, USB | 1.129,53 | Phasak | ![SAI Phasak 6000VA Online](img/SAI1.png) |
 
 ---
 
