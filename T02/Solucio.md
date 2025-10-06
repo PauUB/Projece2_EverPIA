@@ -5,9 +5,7 @@ Aquest informe té com a objectiu presentar els càlculs realitzats per determin
 
 ---
 
-## 🧮 2. Càlculs realitzats
-
-### 💡 2.1 Potència total dels equips
+## 🔢 Càlcul de potència total
 S'han considerat els següents equips:
 
 | Equip | Model | Potència (W) | Quantitat | Total (W) |
@@ -18,11 +16,41 @@ S'han considerat els següents equips:
 | Impressora multifunció | [Brother DCP-L3560CDW](https://www.pccomponentes.com/brother-dcp-l3560cdw-multifuncion-laser-led-color-wifi-duplex?srsltid=AfmBOoqsvUDWYbGozDtUOw1bfWsvTOYX-ssrKW1Q-Zm6VR1GK2K4kUOw) | 560 | 1 | 560 |
 | **Total sense reserva** | | | | **4498 W** |
 
-Afegint una **reserva del 20%**:
+**Potència en watts (W):**
 
-> 🧾 **Potència total requerida:**  
-> 4498 W × 1,2 = **5397,6 W**
+- 4 Monitors: 4 × 230 W = 920 W
+- 4 Ordinadors: 4 × 750 W = 3000 W
+- 1 Router: 18 W
+- Impressora (no connectada): 560 W (no inclosa)
 
+**Total sense impressora:**  
+920 + 3000 + 18 = **3938 W**
+
+**Afegint reserva del 20%:**  
+3938 × 1.2 = **4725.6 W**
+
+**Potència en VA:**
+
+- 4 Monitors: 4 × 330 VA = 1320 VA
+- 4 Ordinadors: 4 × 1071 VA = 4284 VA
+- 1 Router: 26 VA
+- Impressora (no inclosa): 800 VA
+
+**Total sense impressora:**  
+1320 + 4284 + 26 = **5630 VA**
+
+**Afegint reserva del 20%:**  
+5630 × 1.2 = **6756 VA**
+
+## ⏱️ Determinació de l’autonomia
+
+**Objectiu:** mantenir els equips operatius durant 10 minuts per guardar treballs i apagar correctament.
+
+- Potència total: 4725.6 W
+- Temps: 10 minuts = 0.167 hores
+- Energia requerida:  
+  E = 4725.6 × 0.167 = **789.2 Wh**
+  
 ---
 
 ## 🔍 3. Models de SAI analitzats
