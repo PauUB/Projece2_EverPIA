@@ -81,7 +81,7 @@ ModelPotència (VA)Potència (W)AutonomiaSortidesPreu (€)MarcaAPC Back-UPS Pro
 La carpeta del projecte inclou els següents elements:
 
 - README.md → Document explicatiu amb el resum del projecte i les tasques realitzades.
-- [solucio.md] → Arxiu amb l'informe tècnic complet, càlculs i justificació de la selecció del SAI.
-- imatges/ → Carpeta amb imatges de suport, com esquemes, captures de models de SAI, gràfics de consum, etc.
+- [Solucio.md](Solucio.md) → Arxiu amb l'informe tècnic complet, càlculs i justificació de la selecció del SAI.
+- img/ → Carpeta amb imatges de suport, com esquemes, captures de models de SAI, gràfics de consum, etc.
 
 ---
