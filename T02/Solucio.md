@@ -66,3 +66,5 @@ La selecció del **SAI Lapara 6000VA/6000W v1.0** és la **més adequada** per g
 ---
 
 ✍️ *Informe elaborat per a la selecció tècnica del SAI per a equips informàtics (2025).*
+
+[Tornar a l'inici](../README.md)
