@@ -29,9 +29,9 @@ Afegint una **reserva del 20%**:
 
 | Model | Potència (W) | Autonomia | Sortides | Preu (€) | Marca | Imatge |
 |:------|:-------------:|:----------:|:----------|:---------:|:-------:|:------------:|
-| **Lapara 6000VA/6000W v1.0** | 6000 | 20 min (mitja càrrega) | IEC C13, C19, USB, RS232, RJ45 | **1.647,09** | Lapara | ![SAI Lapara 6000VA/6000W v1.0](img/SAI3) |
-| **Riello Sentinel Dual SDU 6000** | 6000 | Ampliable amb bateries | IEC C13, F, USB, RS232 | 1.281,88 | Riello | ![SAI Riello Sentinel Dual SDU 6000](img/SAI2) |
-| **Phasak 6000VA Online** | 5400 | No especificada | Terminal Block, USB | 1.129,53 | Phasak | ![SAI Phasak 6000VA Online](img/SAI1) |
+| **Lapara 6000VA/6000W v1.0** | 6000 | 20 min (mitja càrrega) | IEC C13, C19, USB, RS232, RJ45 | **1.647,09** | Lapara | ![SAI Lapara 6000VA/6000W v1.0](img/SAI3.png) |
+| **Riello Sentinel Dual SDU 6000** | 6000 | Ampliable amb bateries | IEC C13, F, USB, RS232 | 1.281,88 | Riello | ![SAI Riello Sentinel Dual SDU 6000](img/SAI2.png) |
+| **Phasak 6000VA Online** | 5400 | No especificada | Terminal Block, USB | 1.129,53 | Phasak | ![SAI Phasak 6000VA Online](img/SAI1.png) |
 
 ---
 
