@@ -57,3 +57,5 @@ Desenvolupar competències:
 
 Aquest projecte és la teva **porta d’entrada a EverPia**, on cada repte és una oportunitat per créixer i aportar valor.
 
+## 📝 Tasques
+[Tasca 2](T02/README.md)
