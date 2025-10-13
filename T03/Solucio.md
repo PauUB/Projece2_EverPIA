@@ -70,3 +70,7 @@ No protegeix contra arrencades des de dispositius externs si hi ha accés físic
 [Red Hat Docs: Protecting GRUB](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/sec-protecting_grub)
 
 [Way to IT: Protegiendo GRUB](https://waytoit.es/proteger-grub/)
+
+---
+
+[Tornar a l'inici](../README.md)
