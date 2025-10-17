@@ -174,3 +174,5 @@ Rendiment del hosting, integració de CDN, SLA elevat i identitat del domini.
 #### Per què Kinsta és la millor opció per al client: 
 
 La combinació de Kinsta com a proveïdor de hosting i el domini llumso.cat assegura una infraestructura robusta i una presència en línia coherent amb la identitat del festival.
+
+[Tornar a l'inici](../README.md)
